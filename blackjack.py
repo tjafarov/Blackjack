@@ -1,3 +1,5 @@
+#git token: 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
+
 from random import shuffle
 
 
@@ -12,7 +14,6 @@ class Card:
         self.suit = suit
 
     def __add__(self, other):
-
 
         return abs (self.number + other.number)
         if self.value < other.value:
